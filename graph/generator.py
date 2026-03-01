@@ -37,4 +37,4 @@ def get_random_start_goal(graph):
     while goal == start:
         goal = random.choice(nodes)
 
-    return start, goalrt, goal
+    return start, goal
